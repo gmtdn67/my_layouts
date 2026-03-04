@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="libs/fancybox/fancybox.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-ui-display" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/c1f9a988cca69a193c0c29039a0fb81e?family=SF+UI+Display+Semibold" rel="stylesheet">
+    <title>Test</title>
+</head>
+<body>
+    <section class="listing">
+        <article class="product-card">
+            <div class="product-card__gallery">
+                <div class="product-card__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №1" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №2" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №3" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №4" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №5" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №6" class="product-card__image">
+                        </div>
+                    </div>
+
+                    
+                    <button class="swiper-button-prev">
+                        <img src="./images/icons/arrow-prev.svg" alt="Предыдущий">
+                    </button>
+
+                    <button class="swiper-button-next">
+                        <img src="./images/icons/arrow-next.svg" alt="Следующий">
+                    </button>
+
+                </div>
+
+                <button class="product-card__zoom" 
+                        data-fancybox="gallery" 
+                        data-src="./images/products/product.png"
+                        aria-label="Увеличить фото">
+                    <img src="./images/icons/resize.svg" alt="Увеличить" class="product-card__zoom-icon">
+                </button>
+
+            </div>
+
+            
+
+            <div class="product-card--content">
+                <div class="swiper-pagination product-card--pagination">
+                </div>
+                <div class="product-card--main">
+                    <span class="product-card--article">Артикул — 4607</span>
+                    <h3 class="product-card--title">
+                        Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»                    
+                    </h3>
+                </div>
+                <div class="product-card--select">
+                    <span class="product-card--select-title">Варианты материалов</span>
+                    <div class="product-card--select-tabs">
+                        <button class="product-card--tab active" data-tab="tab1">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">ПВХ</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab2">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Эмаль</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab3">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Пластик</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab4" >
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Массив</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card--price-block">
+                    <div class="product-card--price-text">
+                        <p class="product-card--price">Цена от</p>
+                        <span class="product-card--price-value">515 700 ₽</span>
+                        <div class="product-card--price-meter">
+                            <span class="product-card--price-value-next">Погонный метр от</span>
+                            <span class="product-card--price-value-next">—</span>
+                            <span class="product-card--price-value-next-price">30 000 ₽</span>
+                        </div>
+                    </div>
+                    <button class="product-card--buy"><span class="product-card--buy-text">Заказать</span></button>
+                </div>
+
+                <div class="product-card--footer">
+                    <button class="product-card--like" aria-label="Добавить в избранное">
+                        <img src="./images/icons/like.svg" alt="Like" class="product-card--like-icon">
+                        <span class="product-card--like-count">57</span>
+                    </button>
+
+                    <a href="/calc" target="_blank" class="product-card--calc">
+                        Рассчитать стоимость 
+                        <img src="./images/icons/arrow-next.svg" alt="Рассчитать стоимость" height="12" width="12">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="product-card--desc">
+                <span class="product-card--desc-text">Описание товара</span>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-card__gallery">
+                <div class="product-card__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №1" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №2" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №3" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №4" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №5" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №6" class="product-card__image">
+                        </div>
+                    </div>
+
+                    
+                    <button class="swiper-button-prev">
+                        <img src="./images/icons/arrow-prev.svg" alt="Предыдущий">
+                    </button>
+
+                    <button class="swiper-button-next">
+                        <img src="./images/icons/arrow-next.svg" alt="Следующий">
+                    </button>
+
+                </div>
+
+                <button class="product-card__zoom" 
+                        data-fancybox="gallery" 
+                        data-src="./images/products/product.png"
+                        aria-label="Увеличить фото">
+                    <img src="./images/icons/resize.svg" alt="Увеличить" class="product-card__zoom-icon">
+                </button>
+
+            </div>
+
+            
+
+            <div class="product-card--content">
+                <div class="swiper-pagination product-card--pagination"></div>
+                <div class="product-card--main">
+                    <span class="product-card--article">Артикул — 4607</span>
+                    <h3 class="product-card--title">
+                        Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»                    
+                    </h3>
+                </div>
+                <div class="product-card--select">
+                    <span class="product-card--select-title">Варианты материалов</span>
+                    <div class="product-card--select-tabs">
+                        <button class="product-card--tab active" data-tab="tab1">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">ПВХ</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab2">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Эмаль</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab3">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Пластик</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab4" >
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Массив</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card--price-block">
+                    <div class="product-card--price-text">
+                        <p class="product-card--price">Цена от</p>
+                        <span class="product-card--price-value">515 700 ₽</span>
+                        <div class="product-card--price-meter">
+                            <span class="product-card--price-value-next">Погонный метр от</span>
+                            <span class="product-card--price-value-next">—</span>
+                            <span class="product-card--price-value-next-price">30 000 ₽</span>
+                        </div>
+                    </div>
+                    <button class="product-card--buy"><span class="product-card--buy-text">Заказать</span></button>
+                </div>
+
+                <div class="product-card--footer">
+                    <button class="product-card--like" aria-label="Добавить в избранное">
+                        <img src="./images/icons/like.svg" alt="Like" class="product-card--like-icon">
+                        <span class="product-card--like-count">57</span>
+                    </button>
+
+                    <a href="/calc" target="_blank" class="product-card--calc">
+                        Рассчитать стоимость 
+                        <img src="./images/icons/arrow-next.svg" alt="Рассчитать стоимость" height="12" width="12">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="product-card--desc">
+                <span class="product-card--desc-text">Описание товара</span>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-card__gallery">
+                <div class="product-card__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №1" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №2" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №3" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №4" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №5" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №6" class="product-card__image">
+                        </div>
+                    </div>
+
+                    
+                    <button class="swiper-button-prev">
+                        <img src="./images/icons/arrow-prev.svg" alt="Предыдущий">
+                    </button>
+
+                    <button class="swiper-button-next">
+                        <img src="./images/icons/arrow-next.svg" alt="Следующий">
+                    </button>
+
+                </div>
+
+                <button class="product-card__zoom" 
+                        data-fancybox="gallery" 
+                        data-src="./images/products/product.png"
+                        aria-label="Увеличить фото">
+                    <img src="./images/icons/resize.svg" alt="Увеличить" class="product-card__zoom-icon">
+                </button>
+
+            </div>
+
+            
+
+            <div class="product-card--content">
+                <div class="swiper-pagination product-card--pagination"></div>
+                <div class="product-card--main">
+                    <span class="product-card--article">Артикул — 4607</span>
+                    <h3 class="product-card--title">
+                        Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»                    
+                    </h3>
+                </div>
+                <div class="product-card--select">
+                    <span class="product-card--select-title">Варианты материалов</span>
+                    <div class="product-card--select-tabs">
+                        <button class="product-card--tab active" data-tab="tab1">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">ПВХ</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab2">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Эмаль</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab3">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Пластик</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab4" >
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Массив</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card--price-block">
+                    <div class="product-card--price-text">
+                        <p class="product-card--price">Цена от</p>
+                        <span class="product-card--price-value">515 700 ₽</span>
+                        <div class="product-card--price-meter">
+                            <span class="product-card--price-value-next">Погонный метр от</span>
+                            <span class="product-card--price-value-next">—</span>
+                            <span class="product-card--price-value-next-price">30 000 ₽</span>
+                        </div>
+                    </div>
+                    <button class="product-card--buy"><span class="product-card--buy-text">Заказать</span></button>
+                </div>
+
+                <div class="product-card--footer">
+                    <button class="product-card--like" aria-label="Добавить в избранное">
+                        <img src="./images/icons/like.svg" alt="Like" class="product-card--like-icon">
+                        <span class="product-card--like-count">57</span>
+                    </button>
+
+                    <a href="/calc" target="_blank" class="product-card--calc">
+                        Рассчитать стоимость 
+                        <img src="./images/icons/arrow-next.svg" alt="Рассчитать стоимость" height="12" width="12">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="product-card--desc">
+                <span class="product-card--desc-text">Описание товара</span>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-card__gallery">
+                <div class="product-card__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №1" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №2" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №3" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №4" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №5" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №6" class="product-card__image">
+                        </div>
+                    </div>
+
+                    
+                    <button class="swiper-button-prev">
+                        <img src="./images/icons/arrow-prev.svg" alt="Предыдущий">
+                    </button>
+
+                    <button class="swiper-button-next">
+                        <img src="./images/icons/arrow-next.svg" alt="Следующий">
+                    </button>
+
+                </div>
+
+                <button class="product-card__zoom" 
+                        data-fancybox="gallery" 
+                        data-src="./images/products/product.png"
+                        aria-label="Увеличить фото">
+                    <img src="./images/icons/resize.svg" alt="Увеличить" class="product-card__zoom-icon">
+                </button>
+
+            </div>
+
+            
+
+            <div class="product-card--content">
+                <div class="swiper-pagination product-card--pagination"></div>
+                <div class="product-card--main">
+                    <span class="product-card--article">Артикул — 4607</span>
+                    <h3 class="product-card--title">
+                        Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»                    
+                    </h3>
+                </div>
+                <div class="product-card--select">
+                    <span class="product-card--select-title">Варианты материалов</span>
+                    <div class="product-card--select-tabs">
+                        <button class="product-card--tab active" data-tab="tab1">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">ПВХ</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab2">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Эмаль</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab3">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Пластик</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab4" >
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Массив</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card--price-block">
+                    <div class="product-card--price-text">
+                        <p class="product-card--price">Цена от</p>
+                        <span class="product-card--price-value">515 700 ₽</span>
+                        <div class="product-card--price-meter">
+                            <span class="product-card--price-value-next">Погонный метр от</span>
+                            <span class="product-card--price-value-next">—</span>
+                            <span class="product-card--price-value-next-price">30 000 ₽</span>
+                        </div>
+                    </div>
+                    <button class="product-card--buy"><span class="product-card--buy-text">Заказать</span></button>
+                </div>
+
+                <div class="product-card--footer">
+                    <button class="product-card--like" aria-label="Добавить в избранное">
+                        <img src="./images/icons/like.svg" alt="Like" class="product-card--like-icon">
+                        <span class="product-card--like-count">57</span>
+                    </button>
+
+                    <a href="/calc" target="_blank" class="product-card--calc">
+                        Рассчитать стоимость 
+                        <img src="./images/icons/arrow-next.svg" alt="Рассчитать стоимость" height="12" width="12">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="product-card--desc">
+                <span class="product-card--desc-text">Описание товара</span>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-card__gallery">
+                <div class="product-card__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №1" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №2" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №3" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №4" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №5" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №6" class="product-card__image">
+                        </div>
+                    </div>
+
+                    
+                    <button class="swiper-button-prev">
+                        <img src="./images/icons/arrow-prev.svg" alt="Предыдущий">
+                    </button>
+
+                    <button class="swiper-button-next">
+                        <img src="./images/icons/arrow-next.svg" alt="Следующий">
+                    </button>
+
+                </div>
+
+                <button class="product-card__zoom" 
+                        data-fancybox="gallery" 
+                        data-src="./images/products/product.png"
+                        aria-label="Увеличить фото">
+                    <img src="./images/icons/resize.svg" alt="Увеличить" class="product-card__zoom-icon">
+                </button>
+
+            </div>
+
+            
+
+            <div class="product-card--content">
+                <div class="swiper-pagination product-card--pagination"></div>
+                <div class="product-card--main">
+                    <span class="product-card--article">Артикул — 4607</span>
+                    <h3 class="product-card--title">
+                        Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»                    
+                    </h3>
+                </div>
+                <div class="product-card--select">
+                    <span class="product-card--select-title">Варианты материалов</span>
+                    <div class="product-card--select-tabs">
+                        <button class="product-card--tab active" data-tab="tab1">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">ПВХ</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab2">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Эмаль</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab3">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Пластик</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab4" >
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Массив</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card--price-block">
+                    <div class="product-card--price-text">
+                        <p class="product-card--price">Цена от</p>
+                        <span class="product-card--price-value">515 700 ₽</span>
+                        <div class="product-card--price-meter">
+                            <span class="product-card--price-value-next">Погонный метр от</span>
+                            <span class="product-card--price-value-next">—</span>
+                            <span class="product-card--price-value-next-price">30 000 ₽</span>
+                        </div>
+                    </div>
+                    <button class="product-card--buy"><span class="product-card--buy-text">Заказать</span></button>
+                </div>
+
+                <div class="product-card--footer">
+                    <button class="product-card--like" aria-label="Добавить в избранное">
+                        <img src="./images/icons/like.svg" alt="Like" class="product-card--like-icon">
+                        <span class="product-card--like-count">57</span>
+                    </button>
+
+                    <a href="/calc" target="_blank" class="product-card--calc">
+                        Рассчитать стоимость 
+                        <img src="./images/icons/arrow-next.svg" alt="Рассчитать стоимость" height="12" width="12">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="product-card--desc">
+                <span class="product-card--desc-text">Описание товара</span>
+            </div>
+        </article>
+
+        <article class="product-card">
+            <div class="product-card__gallery">
+                <div class="product-card__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №1" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №2" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №3" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №4" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №5" class="product-card__image">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./images/products/product.png" data-fancybox="gallery" alt="Картинка продукта №6" class="product-card__image">
+                        </div>
+                    </div>
+
+                    
+                    <button class="swiper-button-prev">
+                        <img src="./images/icons/arrow-prev.svg" alt="Предыдущий">
+                    </button>
+
+                    <button class="swiper-button-next">
+                        <img src="./images/icons/arrow-next.svg" alt="Следующий">
+                    </button>
+
+                </div>
+
+                <button class="product-card__zoom" 
+                        data-fancybox="gallery" 
+                        data-src="./images/products/product.png"
+                        aria-label="Увеличить фото">
+                    <img src="./images/icons/resize.svg" alt="Увеличить" class="product-card__zoom-icon">
+                </button>
+
+            </div>
+
+            
+
+            <div class="product-card--content">
+                <div class="swiper-pagination product-card--pagination"></div>
+                <div class="product-card--main">
+                    <span class="product-card--article">Артикул — 4607</span>
+                    <h3 class="product-card--title">
+                        Угловая бежевая кухня на заказ с матовыми фасадами в современном стиле «Нарцисс»                    
+                    </h3>
+                </div>
+                <div class="product-card--select">
+                    <span class="product-card--select-title">Варианты материалов</span>
+                    <div class="product-card--select-tabs">
+                        <button class="product-card--tab active" data-tab="tab1">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">ПВХ</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab2">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Эмаль</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab3">
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Пластик</span>
+                        </button>
+                        <button class="product-card--tab" data-tab="tab4" >
+                            <img src="./images/icons/checked.svg" alt="Выбрано" class="product-card--tab-checked">
+                            <span class="product-card--tab-text">Массив</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="product-card--price-block">
+                    <div class="product-card--price-text">
+                        <p class="product-card--price">Цена от</p>
+                        <span class="product-card--price-value">515 700 ₽</span>
+                        <div class="product-card--price-meter">
+                            <span class="product-card--price-value-next">Погонный метр от</span>
+                            <span class="product-card--price-value-next">—</span>
+                            <span class="product-card--price-value-next-price">30 000 ₽</span>
+                        </div>
+                    </div>
+                    <button class="product-card--buy"><span class="product-card--buy-text">Заказать</span></button>
+                </div>
+
+                <div class="product-card--footer">
+                    <button class="product-card--like" aria-label="Добавить в избранное">
+                        <img src="./images/icons/like.svg" alt="Like" class="product-card--like-icon">
+                        <span class="product-card--like-count">57</span>
+                    </button>
+
+                    <a href="/calc" target="_blank" class="product-card--calc">
+                        Рассчитать стоимость 
+                        <img src="./images/icons/arrow-next.svg" alt="Рассчитать стоимость" height="12" width="12">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="product-card--desc">
+                <span class="product-card--desc-text">Описание товара</span>
+            </div>
+        </article>
+    </section>
+
+
+    <script src="libs/swiper/swiper-bundle.min.js"></script>
+    <script src="libs/fancybox/fancybox.umd.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
